@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Basica</title>
+    <link rel="stylesheet" href="css/eje-sera-10.css"> 
+    
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div id="container">
+            <h1>Calculadora Básica</h1>
+            <div id="input">
+                <input type="text"  class="entradas" id="n1" placeholder="numero 1" value="0.0">
+                <input type="text"  class="entradas" id="n2" placeholder="numero 2" value="0.0">
+            </div>
+            
+            
+                <h3>Resultado: <label id="res">0.0</label></h3>
+            
+            
+            
+            
+            <button id="mas" class="btns" onclick="suma()">+</button>
+            <button id="menos" class="btns" onclick="resta()">-</button>
+            <br>
+            <button id="por" class="btns" onclick="multi()">*</button>
+            <button id="entre" class="btns" onclick="div()">/</button>
+
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/eje-sera-10.js"></script>
+</body>
+
+</html>
